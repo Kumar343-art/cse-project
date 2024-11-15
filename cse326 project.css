@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: whitesmoke;
+  }
+  
+  header {
+    background-color: rgb(236, 156, 8);
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fdfbfb;
+    margin-top: 20px;
+  }
+  
+  .hero h2 {
+    font-size: 2em;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+  }
+  
+  .menu {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e2bc7f;
+  }
+  
+  .menu h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+  }
+  
+  .menu-item {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu-item h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+  
+  .menu-item p {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .menu-item span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff8c00;
+  }
+  
+  .order {
+    padding: 40px 20px;
+    background-color: #fff3e0;
+    text-align: center;
+  }
+  
+  .order h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  form select,
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  
+  form button {
+    background-color: #ff8c00;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #e07b00;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+  }
+  
